@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student2/hselshik/coe608/lab2/register32/simulation/qsim
+vregister32
+Z1 !s110 1769634847
+!i10b 1
+!s100 ffdN;8W]TU0h;e?MHRN2T1
+IYA?OPnFRY00Kh[GG5;<_o2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1769634845
+8register32.vo
+Fregister32.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1769634847.000000
+!s107 register32.vo|
+!s90 -work|work|register32.vo|
+!i113 1
+Z5 o-work work
+vregister32_vlg_vec_tst
+R1
+!i10b 1
+!s100 M3:IcWJz;kc055GlVX:lA3
+IY9R2>W=nZ_hZkD:hM<kcE0
+R2
+R0
+w1769634844
+8register32.vwf.vt
+Fregister32.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 register32.vwf.vt|
+!s90 -work|work|register32.vwf.vt|
+!i113 1
+R5

@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student2/hselshik/coe608/lab3/adder4/simulation/qsim
+vadder4
+Z1 !s110 1770252767
+!i10b 1
+!s100 XUXF;6l`8``eM@M@I2QX]1
+IG62Q2=DJ>>UJ5:1=@no5O3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1770252764
+8adder4.vo
+Fadder4.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1770252767.000000
+!s107 adder4.vo|
+!s90 -work|work|adder4.vo|
+!i113 1
+Z5 o-work work
+vadder4_vlg_vec_tst
+R1
+!i10b 1
+!s100 T8[DJ:IMc53EW=WChMV_o0
+I=4YSRmaf9OK3Jn8P5NVJQ3
+R2
+R0
+w1770252763
+8adder4.vwf.vt
+Fadder4.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 adder4.vwf.vt|
+!s90 -work|work|adder4.vwf.vt|
+!i113 1
+R5

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr  1 22:08:37 2026
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : lab6
+Top-level Entity Name : CPU_TEST_Sim
+Family : Cyclone IV E
+Total logic elements : 720
+    Total combinational functions : 719
+    Dedicated logic registers : 168
+Total registers : 168
+Total pins : 209
+Total virtual pins : 0
+Total memory bits : 10,240
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

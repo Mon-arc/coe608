@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student2/hselshik/coe608/lab3/adder16/simulation/qsim
+vadder16
+!s110 1770252820
+!i10b 1
+!s100 E2CTdk3li[93a_7ojP[?J0
+IU30Om:4U<EJ2je2@o:`oi0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1770252818
+8adder16.vo
+Fadder16.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z3 !s108 1770252820.000000
+!s107 adder16.vo|
+!s90 -work|work|adder16.vo|
+!i113 1
+Z4 o-work work
+vadder16_vlg_vec_tst
+!s110 1770252821
+!i10b 1
+!s100 _KIe8V@>]>_g9g1d8HeSR0
+I@EYj<@;m__>3Ajd1P]h7V2
+R1
+R0
+w1770252817
+8adder16.vwf.vt
+Fadder16.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 adder16.vwf.vt|
+!s90 -work|work|adder16.vwf.vt|
+!i113 1
+R4

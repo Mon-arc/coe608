@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student2/hselshik/coe608/lab6/simulation/qsim
+vCPU_TEST_Sim
+!s110 1775090164
+!i10b 1
+!s100 GI;F09_XE:5zXbeA8n]Nf1
+IUCAZ1RRX579GQJzd]:X221
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1775090162
+Z2 8lab6.vo
+Z3 Flab6.vo
+Z4 L0 32
+Z5 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1775090164.000000
+Z6 !s107 lab6.vo|
+Z7 !s90 -work|work|lab6.vo|
+!i113 1
+Z8 o-work work
+n@c@p@u_@t@e@s@t_@sim
+vcpu_test_sim
+!s110 1775035336
+!i10b 1
+!s100 PF3ZMX0cifS21_1l2dh0V0
+I4ED`H:c1F4^HSg:Z>gQMJ1
+R1
+R0
+w1775035335
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1775035336.000000
+R6
+R7
+!i113 1
+R8
+vCpu_Test_Sim
+Z10 !s110 1775037756
+!i10b 1
+!s100 AM1SO=g8igjhbmF=><N4c3
+Ioz4FN7b2VRCiW`2[QQ1NY2
+R1
+R0
+w1775037754
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1775037756.000000
+R6
+R7
+!i113 1
+R8
+n@cpu_@test_@sim
+vCpu_Test_Sim_vlg_vec_tst
+R10
+!i10b 1
+!s100 ;QO[MOLAc:UQ1fIEd[LCF2
+I16?[TeKO[DbgJ76eAXPL]3
+R1
+R0
+w1775037753
+Z12 8cpu_test_sim.vwf.vt
+Z13 Fcpu_test_sim.vwf.vt
+Z14 L0 30
+R5
+r1
+!s85 0
+31
+R11
+Z15 !s107 cpu_test_sim.vwf.vt|
+Z16 !s90 -work|work|cpu_test_sim.vwf.vt|
+!i113 1
+R8
+n@cpu_@test_@sim_vlg_vec_tst
+vcpu_test_sim_vlg_vec_tst
+!s110 1775035337
+!i10b 1
+!s100 JQLE62[92EX^JkR5CJmN@1
+I7GVlCMQDl=zj3al?^OU2E1
+R1
+R0
+w1775035334
+R12
+R13
+R14
+R5
+r1
+!s85 0
+31
+R9
+R15
+R16
+!i113 1
+R8
+vCPU_TEST_Sim_vlg_vec_tst
+!s110 1775090165
+!i10b 1
+!s100 ;JG1[o7Fmd_8aa=UOHZ190
+I]8?mcT8[`PWOEhmD@@4@70
+R1
+R0
+w1775090161
+R12
+R13
+R14
+R5
+r1
+!s85 0
+31
+!s108 1775090165.000000
+R15
+R16
+!i113 1
+R8
+n@c@p@u_@t@e@s@t_@sim_vlg_vec_tst
+vreset_circuit
+Z17 !s110 1775025461
+!i10b 1
+!s100 OfURZbVO>1<j;zC@Y`kaA2
+I4WHReImbKQc4>KzQz^4S?3
+R1
+R0
+w1775025458
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z18 !s108 1775025461.000000
+R6
+R7
+!i113 1
+R8
+vreset_circuit_vlg_vec_tst
+R17
+!i10b 1
+!s100 2<XiU1]:7B1^93;PgR38;1
+I4;:XbL16Yg7D<1P4f_YUC2
+R1
+R0
+w1775025457
+8reset_circuit.vwf.vt
+Freset_circuit.vwf.vt
+R14
+R5
+r1
+!s85 0
+31
+R18
+!s107 reset_circuit.vwf.vt|
+!s90 -work|work|reset_circuit.vwf.vt|
+!i113 1
+R8

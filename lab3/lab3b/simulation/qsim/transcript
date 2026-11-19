@@ -1,0 +1,32 @@
+# do lab3b.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:26:37 on Feb 11,2026
+# vlog -work work lab3b.vo 
+# -- Compiling module alu8
+# 
+# Top level modules:
+# 	alu8
+# End time: 18:26:37 on Feb 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:26:37 on Feb 11,2026
+# vlog -work work alu8.vwf.vt 
+# -- Compiling module alu8_vlg_vec_tst
+# 
+# Top level modules:
+# 	alu8_vlg_vec_tst
+# End time: 18:26:38 on Feb 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.alu8_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 18:26:39 on Feb 11,2026
+# Loading work.alu8_vlg_vec_tst
+# Loading work.alu8
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $finish    : alu8.vwf.vt(53)
+#    Time: 900 ns  Iteration: 0  Instance: /alu8_vlg_vec_tst
+# End time: 18:26:39 on Feb 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

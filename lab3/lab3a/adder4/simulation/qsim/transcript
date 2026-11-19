@@ -1,0 +1,32 @@
+# do adder4.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:52:47 on Feb 04,2026
+# vlog -work work adder4.vo 
+# -- Compiling module adder4
+# 
+# Top level modules:
+# 	adder4
+# End time: 19:52:47 on Feb 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:52:47 on Feb 04,2026
+# vlog -work work adder4.vwf.vt 
+# -- Compiling module adder4_vlg_vec_tst
+# 
+# Top level modules:
+# 	adder4_vlg_vec_tst
+# End time: 19:52:47 on Feb 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.adder4_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 19:52:47 on Feb 04,2026
+# Loading work.adder4_vlg_vec_tst
+# Loading work.adder4
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $finish    : adder4.vwf.vt(51)
+#    Time: 900 ns  Iteration: 0  Instance: /adder4_vlg_vec_tst
+# End time: 19:52:47 on Feb 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

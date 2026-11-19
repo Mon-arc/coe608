@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, light.vhd
+source_file = 1, /home/student2/hselshik/coe608/lab1-v/Waveform.vwf
+source_file = 1, /home/student2/hselshik/coe608/lab1-v/output_files/Chain1.cdf
+source_file = 1, /home/student2/hselshik/coe608/lab1-v/lab1.v
+source_file = 1, /home/student2/hselshik/coe608/lab1-v/db/lab1.cbx.xml
+design_name = lab1
+instance = comp, \f~output , f~output, lab1, 1
+instance = comp, \x2~input , x2~input, lab1, 1
+instance = comp, \x1~input , x1~input, lab1, 1
+instance = comp, \f~0 , f~0, lab1, 1

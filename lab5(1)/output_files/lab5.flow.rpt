@@ -1,0 +1,430 @@
+Flow report for lab5
+Wed Mar 25 21:25:35 2026
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Wed Mar 25 21:25:35 2026           ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
+; Revision Name                      ; lab5                                            ;
+; Top-level Entity Name              ; Control                                         ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE115F29C7                                   ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 124 / 114,480 ( < 1 % )                         ;
+;     Total combinational functions  ; 124 / 114,480 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 3 / 114,480 ( < 1 % )                           ;
+; Total registers                    ; 3                                               ;
+; Total pins                         ; 65 / 529 ( 12 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                           ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                 ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/25/2026 19:50:46 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab5                ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 22759553279805.177448264645921        ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                  ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; Control     ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; Control     ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; Control     ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; Control                               ; lab5          ; --          ; --             ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:10     ; 1.0                     ; 1483 MB             ; 00:00:19                           ;
+; Fitter                    ; 00:00:15     ; 1.0                     ; 1951 MB             ; 00:00:19                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 1304 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 1440 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1550 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1539 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1550 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1538 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1540 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1550 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1550 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1549 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1550 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1547 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1534 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1536 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1548 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1535 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1551 MB             ; 00:00:00                           ;
+; Total                     ; 00:01:48     ; --                      ; --                  ; 00:00:44                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------------+---------+------------+----------------+
+; Module Name               ; Machine Hostname       ; OS Name ; OS Version ; Processor type ;
++---------------------------+------------------------+---------+------------+----------------+
+; Analysis & Synthesis      ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; Fitter                    ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; Assembler                 ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; TimeQuest Timing Analyzer ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
+; EDA Netlist Writer        ; milliway.ee.ryerson.ca ; Red Hat ; Red Hat    ; x86_64         ;
++---------------------------+------------------------+---------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab5 -c lab5
+quartus_fit --read_settings_files=off --write_settings_files=off lab5 -c lab5
+quartus_asm --read_settings_files=off --write_settings_files=off lab5 -c lab5
+quartus_sta lab5 -c lab5
+quartus_eda --read_settings_files=off --write_settings_files=off lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDB.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/JMP.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/JMP.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/STA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/STA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/JMP.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/JMP.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/BEQ.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/BEQ.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/BNE.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/BNE.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/BNE.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/BNE.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ADD.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ADD.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ADDI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ADDI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/SUB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/SUB.vwf.vt
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/INCA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/INCA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ROL.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ROL.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/CLRA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/CLRA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/CLRB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/CLRB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ANDI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ANDI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/AND.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/AND.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ORI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ORI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/DECA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/DECA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ROR.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ROR.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ROR.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ROR.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDAI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDAI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDBI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDBI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/STA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/STA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/STB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/STB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LDB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LDB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/LUI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/LUI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/JMP.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/JMP.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/BEQ.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/BEQ.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/BNE.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/BNE.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ADD.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ADD.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ADDI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ADDI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/SUB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/SUB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/INCA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/INCA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ROL.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ROL.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/CLRA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/CLRA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/CLRB.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/CLRB.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ANDI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ANDI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/AND.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/AND.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ORI.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ORI.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/DECA.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/DECA.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5 -c lab5 --vector_source=/home/student2/hselshik/coe608/lab5(1)/ROR.vwf --testbench_file=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ROR.vwf.vt
+quartus_eda --write_settings_files=off --functional=off --flatten_buses=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/student2/hselshik/coe608/lab5(1)/simulation/qsim/ lab5 -c lab5
+
+
+

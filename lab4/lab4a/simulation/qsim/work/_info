@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/student2/hselshik/coe608/lab4/lab4a/simulation/qsim
+vdata_mem
+!s110 1772063036
+!i10b 1
+!s100 Qg@4UXmYe3fjezidU`VSY2
+IzQQXAHbL@4FWiPLC:U@YP2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1772063032
+8data_mem.vo
+Fdata_mem.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1772063034.000000
+!s107 data_mem.vo|
+!s90 -work|work|data_mem.vo|
+!i113 1
+Z3 o-work work
+vdata_mem_vlg_vec_tst
+!s110 1772063038
+!i10b 1
+!s100 zik=55VH6<a457;n`jm:>0
+IB7mT0Eik]nfPZFY`4J[kh2
+R1
+R0
+w1772063030
+8data_mem.vwf.vt
+Fdata_mem.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1772063037.000000
+!s107 data_mem.vwf.vt|
+!s90 -work|work|data_mem.vwf.vt|
+!i113 1
+R3
